@@ -14,6 +14,25 @@ Either run
 php composer.phar require --prefer-dist ajaz/php-googlecharts
 ```
 
+Requirement
+-----
+
+JQuery
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>PHP Googel Charts</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://www.google.com/jsapi"></script>
+</head>
+<body>
+
+<h1>Google Chart</h1>
+//your php code..
+</body>
+</html>
+
 Usage
 -----
 
