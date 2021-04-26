@@ -14,8 +14,7 @@ Either run
 php composer.phar require --prefer-dist ajaz/php-googlecharts
 ```
 ## Requirement
-
-
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +28,7 @@ php composer.phar require --prefer-dist ajaz/php-googlecharts
     your php code..
 </body>
 </html>
+```
 
 Usage
 -----
