@@ -1,0 +1,20 @@
+{
+    "name": "ajaz/php-googlecharts",
+    "description": "Google Charts Extension for PHP",
+    "keywords": ["php", "google", "google-charts", "yii2", "google chart", "charts", "analytics", "google charts", "laravel", "chart js", "google graphs", "google analytics"],
+    "homepage": "https://github.com/ajazsaif/php-googlecharts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "ajaz",
+        "email": "ajazaalam@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ajaz\\Google\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
