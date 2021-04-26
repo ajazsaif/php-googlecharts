@@ -14,11 +14,6 @@ Either run
 php composer.phar require --prefer-dist ajaz/php-googlecharts
 ```
 
-Requirement
------
-
-JQuery
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +24,7 @@ JQuery
 <body>
 
 <h1>Google Chart</h1>
-//your php code..
+    your php code..
 </body>
 </html>
 
