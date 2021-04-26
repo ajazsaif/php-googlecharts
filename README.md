@@ -13,7 +13,9 @@ Either run
 ```
 php composer.phar require --prefer-dist ajaz/php-googlecharts
 ```
+
 ## Requirement
+
 ```html
 <!DOCTYPE html>
 <html>
