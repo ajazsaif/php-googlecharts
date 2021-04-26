@@ -20,7 +20,7 @@ php composer.phar require --prefer-dist ajaz/php-googlecharts
 <!DOCTYPE html>
 <html>
 <head>
-<title>PHP Googel Charts</title>
+<title>PHP Google Charts</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://www.google.com/jsapi"></script>
 </head>
@@ -325,6 +325,8 @@ echo $diffColumn->render();
 ```php
 ...
 use Ajaz\Google\BarChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 1) Simple Bar Chart
@@ -435,6 +437,8 @@ echo $stackedBar->render();
 ```php
 ...
 use Ajaz\Google\HistogramChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 ![demo](http://img.sbannikov.info/Histogram.png)
@@ -525,6 +529,8 @@ echo $histogram->render();
 ```php
 ...
 use Ajaz\Google\ComboChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 ![demo](http://img.sbannikov.info/ComboChart.png)
@@ -587,6 +593,8 @@ echo $comboChart->render();
 ```php
 ...
 use Ajaz\Google\LineChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 1) Simple Line Chart
@@ -778,6 +786,8 @@ echo $lineAreaChart->render();
 ```php
 ...
 use Ajaz\Google\AreaChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 1) Simple Area Chart
@@ -903,6 +913,8 @@ echo $stackedAreaChart->render();
 ```php
 ...
 use Ajaz\Google\PieChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 ![demo](http://img.sbannikov.info/PieChart.png)
@@ -951,6 +963,8 @@ echo $pieChart->render();
 ```php
 ...
 use Ajaz\Google\SankeyChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 ![demo](http://img.sbannikov.info/Sankey.png)
@@ -1034,6 +1048,8 @@ echo $sankeyChart->render();
 ```php
 ...
 use Ajaz\Google\GeoChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 ![demo](http://img.sbannikov.info/GeoChartRegions.png)
@@ -1072,6 +1088,8 @@ echo $geoChart->render();
 ```php
 ...
 use Ajaz\Google\BubbleChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 1) Simple Bubble Chart
