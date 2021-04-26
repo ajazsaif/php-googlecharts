@@ -41,6 +41,8 @@ To use any of these widgets,  simply add the following code in your Page.
 ```php
 ...
 use Ajaz\Google\ColumnChart;
+
+require 'vendor/autoload.php';
 ...
 ```
 1) Simple Column Chart
